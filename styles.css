@@ -1,0 +1,46 @@
+.sidebar {
+    background-color: #fefcd1;
+    height: 100vh;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.intro {
+    padding-left: 0;
+    padding-top: 0;
+    margin: 5px;
+    font-size: 17px;
+}
+
+.heading {
+    padding-left: 0;
+    padding-top: 10px;
+    color: rgb(95, 95, 255);
+    text-align: center;
+}
+
+.subheading {
+    padding-left: 5px;
+    color: rgb(95, 95, 255);
+}
+
+.name {
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.year1 {
+    margin-left: 300px;
+    font-weight: bold;
+}
+
+.year2 {
+    margin-left: 125px;
+    font-weight: bold;
+}
+
+.submenu {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+}
