@@ -30,20 +30,32 @@
     padding-left: 5px;
     color: rgb(95, 95, 255);
 }
-
+.item p {
+    display: inline-block;
+}
 .name {
-    font-weight: bold;
     padding-left: 5px;
+    font-weight: bold;
+    text-align: left;
+    width: 50%;
+}
+.name2 {
+    padding-left: 5px;
+    font-weight: bold;
+    text-align: left;
+    width: 65%;
 }
 
 .year1 {
-    margin-left: 300px;
     font-weight: bold;
+    text-align: right;
+    width: 50%;
 }
 
 .year2 {
-    margin-left: 125px;
     font-weight: bold;
+    text-align: right;
+    width: 35%;
 }
 
 .submenu {
