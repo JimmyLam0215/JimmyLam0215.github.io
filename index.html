@@ -5,57 +5,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8">
         <title>Jimmy's home page</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="styles.css" rel="stylesheet">
     </head>
     <body class="index">
-        <main>
-            <div class="container">
-                <div class="row">
-                    <div class="sidebar_index col-lg-3 col-md-3">
-                        <h2>Menu</h2>
-                        <div>
-                            <p class="submenu"><a href="index.html">Home</a></p>
-                        </div>
-                        <div>
-                            <p class="submenu"><a href="proglang.html">Programming Languages</a></p>
-                        </div>
-                        <div>
-                        <p class="submenu">Programming Experience</p>
-                        <ul>
-                            <li><p class="submenu"><a href="progexp.html">Individual Projects</a></li></p>
-                            <li><p class="submenu"><a href="progexpgp.html">Group Projects</a></li></p>
-                        </ul>
-                        </div>
-                    </div>
-                    <div class="main col-lg-8 col-md-7">
-                        <div class="main body">
-                            <h2 class="heading"> Welcome to Jimmy's website</h2><br>
-                            <div>
-                                <section>
-                                <h4 class="subheading">About Me:</h4>
-                                <p class="intro">Hi there. My name is <strong>LAM Pui Wa</strong>. You can call me <strong>Jimmy</strong>. Welcome to my website. </p>
-                                <p class="intro">I am currently a year 3 student majoring in Computing from the <a href="https://www.polyu.edu.hk/en/comp/" target="_blank">Hong Kong Polytechnic University</a>.</p>
-                                <p class="intro">This website will show some basic information about me!</p>
-                            </section>
-                            </div>
-                            <br>
-                            <div>
-                                <section>
-                            <h4 class="subheading">Education:</h4>
-                            <article class="item">
-                                <p class="name">SKH Lam Kau Mow Secondary School</p><p class="year1">[2015-2021]</p>
-                            </article>
-                            <article class="item">
-                                <p class="name2">BSc (HONS) COMPUTING, Hong Kong Polytechnic University</p><p class="year2">[2021-2025] (expected)</p>
-                            </article>
-                        </section>
-                            </div>
-                            
-                        </div>
+        <header>
+            <h3>Jimmy's Page</h3>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="proglang.html">Programming Languages</a></li>
+                <div class="dropdown">
+                    <li class="btn"><button class="dropdown-btn">Project Experiences</button></li>
+                    <div class="dropdown-content">
+                        <a href="progexp.html">Individual Project</a>
+                        <a href="progexpgp.html">Group Project</a>
                     </div>
                 </div>
+                </ul>
+            </nav>
+        </header>
+    <main>      
+        <div class="container ">
+            <section class="about-me">
+                <h2 class="heading"> Welcome to Jimmy's website</h2><br>
+                <div class="divider"></div>
+                    <h3 class="subheading">About Me:</h3>
+                    <p class="intro">Hi there. My name is <strong>LAM Pui Wa</strong>. You can call me <strong>Jimmy</strong>. Welcome to my website. 
+                    <p class="intro">I am currently a year 3 student majoring in Computing from the <a href="https://www.polyu.edu.hk/en/comp/" target="_blank">Hong Kong Polytechnic University</a>.
+                    <p class="intro">This website will show some basic information about me!</p>
+                    <div class="divider"></div>
+            </section>
+            
+            <section class="education">
+                <h4 class="subheading">Education:</h4>
+                    <article class="item">
+                        <p class="name S">SKH Lam Kau Mow Secondary School</p><p class="year one">[2015-2021]</p>
+                    </article>
+                    <article class="item">
+                        <p class="name U">BSc (HONS) COMPUTING, Hong Kong Polytechnic University</p><p class="year two">[2021-2025] (expected)</p>
+                    </article>
+            </section>
+            <div class="divider"></div>
         </div>
-</main>
+    </main>
+    <footer>
+        <span>Created by Jimmy Lam</span><span> Last modified: 03/02/2024</span> 
+    </footer>
 </body>
 </html>

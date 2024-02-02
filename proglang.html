@@ -5,32 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8">
         <title>Programming Languages</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="styles.css" rel="stylesheet">
     </head>
     <body class="proglang">
-        <main>
-            <div class="container">
-            <div class="row">
-                <div class="sidebar_lang col-lg-3 col-md-3">
-                    <h2>Menu</h2>
-                    <div>
-                        <p class="submenu"><a href="index.html">Home</a></p>
-                    </div>
-                    <div>
-                        <p class="submenu"><a href="proglang.html">Programming Languages</a></p>
-                    </div>
-                    <div>
-                        <p class="submenu"><a>Programming Experience</a></p>
-                        <ul>
-                        <li><p class="submenu"><a href="progexp.html">Individual Projects</a></li></p>
-                        <li><p class="submenu"><a href="progexpgp.html">Group Projects</a></li></p>
-                        </ul>
+        <header>
+            <h3>Jimmy's Page</h3>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="proglang.html">Programming Languages</a></li>
+                <div class="dropdown">
+                    <li class="btn"><button class="dropdown-btn">Project Experiences</button></li>
+                    <div class="dropdown-content">
+                        <a href="progexp.html">Individual Project</a>
+                        <a href="progexpgp.html">Group Project</a>
                     </div>
                 </div>
-                <div class="main col-lg-8 col-md-7">
-                    <h2 class="heading">List of programming languages that I know:</h2><br>
-                    <h4 class="subheading">With More Experiences on:</h4>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container lang">
+                <h2 class="heading">List of programming languages that I know:</h2>
+                <div class="divider"></div>
+                <h3 class="subheading">With More Experiences on:</h3>
                     <ul>
                         <li class="lang">
                             Python 
@@ -47,7 +45,8 @@
                             HTML & CSS
                         </li>
                     </ul>
-                    <h4 class="subheading">With Experiences on:</h4>
+                    <div class="divider"> </div>
+                    <h3 class="subheading">With Experiences on:</h3>
                     <ul>
                         <li class="lang">
                             C# 
@@ -73,9 +72,12 @@
                             SQL
                         </li>
                     </ul>
-                </div>
-            </div>
-        </div>
-</main>
+                    <div class="divider"></div>
+            </div>    
+            <footer>
+                <span>Created by Jimmy Lam</span><span> Last modified: 03/02/2024</span> 
+            </footer>
+        </main>
+       
 </body>
 </html>

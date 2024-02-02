@@ -5,77 +5,78 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8">
         <title>Programming Experience</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="styles.css" rel="stylesheet">
     </head>
     <body class="gp">
+      <header>
+        <h3>Jimmy's Page</h3>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="proglang.html">Programming Languages</a></li>
+            <div class="dropdown">
+              <li class="btn"><button class="dropdown-btn">Project Experiences</button></li>
+                <div class="dropdown-content">
+                    <a href="progexp.html">Individual Project</a>
+                    <a href="progexpgp.html">Group Project</a>
+                </div>
+            </div>
+            </ul>
+        </nav>
+    </header>
       <main>
         <div class="container">
-          <div class="row">
-              <div class="sidebar_gp col-lg-3 col-md-3">
-                  <h2>Menu</h2>
-                  <div>
-                      <p class="submenu"><a href="index.html">Home</a></p>
-                  </div>
-                  <div>
-                      <p class="submenu"><a href="proglang.html">Programming Languages</a></p>
-                  </div>
-                  <div>
-                      <p class="submenu">Programming Experience</p>
-                      <ul>
-                      <li><p class="submenu"><a href="progexp.html">Individual Projects</a></li></p>
-                      <li><p class="submenu"><a href="progexpgp.html">Group Projects</a></li></p>
-                      </ul>
-                  </div>
-              </div>
-              <div class="main col-lg-8 col-md-7">
-                  <h2 class="heading">List of projects that I have involved in:</h2><br>
-                  <h4 class="subheading">Group Projects:</h4>
-                  <h6 class="smallheading">Others:</h6>
+          <h2 class="heading">Group Project:</h2>
+          <section class="poly">
+            <h3 class="smallheading">From Hong Kong Polytechnic Unviersity COMP's courses:</h3>
+            <div class="divider"></div>
+            <table>
+              <tr>
+                <th class="info">Project Information (Command-Line-Based)</th>
+                <th class="date">Completion Date</th>
+              </tr>
+              <tr>
+                <td class="info">COMP3211: Personal Information Manager (Written in Java)</td>
+                <td class="date">NOV 2023</td>
+              </tr>
+              <tr>
+                <td class="info">COMP2432: Appointment Organizer (Written in C)</td>
+                <td class="date">MAR 2023</td>
+              </tr>
+              <tr>
+                  <td class="info">COMP2021: Interpreter for SIMPLE Program (Written in Java)</td>
+                  <td class="date">NOV 2022</td>
+                </tr>
+              <tr>
+                  <td class="info">COMP2411: Library Management System (Written in Java & SQL)</td>
+                  <td class="date">NOV 2022</td>
+                </tr>
+                <tr>
+                  <td class="info">COMP1002: Password Management System (Written in Python)</td>
+                  <td class="date">OCT 2021</td>
+                </tr>
+            </table>
+          </section>
+          <div class="divider"></div>
+          <section class="other">
+            <h3 class="smallheading">Others:</h3>
+            <div class="divider"></div>
                   <table>
                       <tr>
                         <th class="info">Project Information</th>
-                        <th class="date" WIDTH="200">Completion Date</th>
+                        <th class="date">Completion Date</th>
                       </tr>
                       <tr>
-                        <td WIDTH="250"><a href="https://iamsunnychan.itch.io/escapees-of-the-woodland" target="_blank">Escapees-of-the-Woodland (Written in C# with Unity)</a></td>
-                        <td>JAN 2024</td>
+                        <td class="info"><a href="https://iamsunnychan.itch.io/escapees-of-the-woodland" target="_blank">Escapees-of-the-Woodland (Written in C# with Unity)</a></td>
+                        <td class="date">JAN 2024</td>
                       </tr>
                     </table>
-                    <br>
-                  <h6 class="smallheading">From Hong Kong Polytechnic Unviersity COMP's courses:</h6>
-                  <table>
-                      <tr>
-                        <th class="info">Project Information (Command-Line-Based)</th>
-                        <th class="date" WIDTH="200">Completion Date</th>
-                      </tr>
-                      <tr>
-                        <td WIDTH="250">COMP3211: Personal Information Manager (Written in Java)</td>
-                        <td>NOV 2023</td>
-                      </tr>
-                      <tr>
-                        <td>COMP2432: Appointment Organizer (Written in C)</td>
-                        <td>MAR 2023</td>
-                      </tr>
-                      <tr>
-                          <td>COMP2021: Interpreter for SIMPLE Program (Written in Java)</td>
-                          <td>NOV 2022</td>
-                        </tr>
-                      <tr>
-                          <td>COMP2411: Library Management System (Written in Java & SQL)</td>
-                          <td>NOV 2022</td>
-                        </tr>
-                        <tr>
-                          <td>COMP1002: Password Management System (Written in Python)</td>
-                          <td>OCT 2021</td>
-                        </tr>
-                    </table>
-                    <br>
-                
-                  
-              </div>
-          </div>
+            <div class="divider"></div>
+          </section>
         </div>
+        <footer>
+          <span>Created by Jimmy Lam</span><span> Last modified: 03/02/2024</span> 
+      </footer>
     </main>
 </body>
 </html>

@@ -1,116 +1,182 @@
-.sidebar_index, .sidebar_gp, .sidebar_lang {
-    background-color: #fefcd1;
-    height: 100vh;
-    padding-left: 25px;
-    font-size: 20px;
-}
-
-.sidebar_indi {
-    background-color: #fefcd1;
-    height: 125vh;
-    padding-left: 25px;
-    font-size: 20px;
-}
-
-.intro {
-    padding-left: 0;
-    padding-top: 0;
-    margin: 5px;
-    font-size: 17px;
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #000000;;
+    display: flex;
 }
 
 .heading {
-    padding-left: 0;
-    padding-top: 10px;
-    color: rgb(95, 95, 255);
     text-align: center;
+    text-decoration: underline;
+}
+nav {
+    width: 82%;
+    height: 150px;
 }
 
-.subheading {
-    padding-left: 5px;
-    color: rgb(95, 95, 255);
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
 }
-.item p {
+
+.dropdown-btn, nav > ul > li {
+    display: block;
+    margin: 0.5rem 1rem;
+    padding: 0.2 rem;
+    font-size: 20px;
+}
+
+h3, li {
+    color: #f1be32;
+}
+
+header h3 {
+    margin: 1.5rem 0.5rem;
+    width: 18%;
+}
+
+.intro, .education {
+    font-size: 18px;
+}
+
+li {
+    margin: 0 50px;
+}
+
+body {
+    margin: 0;
+    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=600);
+    color: #f1be32;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.indi {
+    height: 120vh;
+}
+
+main {
+    text-align: justify;
+}
+
+.item > p {
     display: inline-block;
 }
+
+.divider {
+    border-bottom: 1px solid #f1be32;
+    margin: 2px 0;
+}
+
 .name {
-    padding-left: 5px;
-    font-weight: bold;
-    text-align: left;
-    width: 50%;
-}
-.name2 {
-    padding-left: 5px;
-    font-weight: bold;
-    text-align: left;
-    width: 65%;
+    width: 60%;
 }
 
-.year1 {
-    font-weight: bold;
+.year {
     text-align: right;
-    width: 50%;
+    width: 40%;
+} 
+
+.container{
+    margin: 0 16%;
 }
 
-.year2 {
-    font-weight: bold;
-    text-align: right;
-    width: 35%;
+.container > ul > li {
+    font-size: 16px;
+    margin: 5px 0;
 }
 
-.submenu {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 25px;
-    color: rgb(0, 123, 255);
-}
-
-.lang {
-    font-size: 17px;
-    padding:0;
-    margin:0;
-}
-
-.indi  {
-    background-color: rgb(255, 255, 255);
-    height: 125vh;
-}
-
-.index, .proglang, .gp {
-    background-color: rgb(255, 255, 255);
-    height: 100vh;
-}
-
-.smallheading {
-    padding-left: 5px;
-    margin: 0;
-    color: rgb(95, 95, 255);
-}
-
-.info {
-    width: 650px;
-    padding-left: 5px;
-}
-
-.date {
-    padding-left: 5px;
-
-}
-
-td {
-    padding-left: 5px;    
-}
-
-tr {
-    line-height: 250%;
-}
-
-.container {
-    height: 100vh;
-    padding: 0;
-    margin: 0;
+a {
+    text-decoration: none;
 }
 
 a:hover {
-    color: rgb(95, 95, 255);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #f1be32;
+}
+
+.subheading {
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+.education {
+    margin-right: 0;
+}
+
+.divider {
+    border-bottom: 1px solid #f1be32;
+}
+
+.proglang {
+    width: 100%;
+    height: 100vh; 
+}
+
+footer {
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+span {
+    margin: 0 10px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: #000000;
+    border: none;
+    color: #f1be32;
+}
+.dropdown-btn:hover {
+    text-decoration: underline;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    margin: 0 5%;
+    width: 15%;
+    height: 150px;
+}
+
+.dropdown-content a {
+    color: #f1be32;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 25px 10px;
+    border-bottom: 1px solid #f1be32;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.btn {
+    list-style-type: none;
+}
+
+.info {
+    width: 720px;
+}
+
+.date {
+    text-align: right;
+}
+
+.info, .date {
+    height: 30px;
+}
+
+.footer-indi {
+    margin-top: auto;
 }
