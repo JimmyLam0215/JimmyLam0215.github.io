@@ -37,27 +37,24 @@
     padding-left: 5px;
     font-weight: bold;
     text-align: left;
+    width: 50%;
 }
-
-.S {
-    width: 50%
-}
-
-.U {
+.name2 {
+    padding-left: 5px;
+    font-weight: bold;
+    text-align: left;
     width: 65%;
 }
 
-.year {
+.year1 {
     font-weight: bold;
     text-align: right;
     width: 50%;
 }
 
-.one {
-    width: 50%;
-}
-
-.two {
+.year2 {
+    font-weight: bold;
+    text-align: right;
     width: 35%;
 }
 
