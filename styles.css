@@ -40,7 +40,7 @@ header h3 {
     width: 18%;
 }
 
-.intro, .education {
+.intro, .education, .job-experience {
     font-size: 18px;
 }
 
@@ -184,6 +184,10 @@ span {
 
 .footer-indi {
     margin-top: auto;
+}
+
+.footer-home {
+    bottom: -8px;
 }
 
 @media (max-width: 830px){
